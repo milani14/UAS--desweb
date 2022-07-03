@@ -1,0 +1,79 @@
+
+.auth{
+	padding: 10px;
+}
+.auth .card{
+	box-shadow: -4px 4px 12px 0 #856401;
+	margin-bottom: 2.2rem;
+	border-radius: 2px;
+	margin-top: 20px;
+	padding: 20px;
+}
+.auth h3{
+	text-align: center;
+	font-weight: 600;
+	color: #ffc30b;
+}
+.header{
+	background-image: url('bg7.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 150vh;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+@media (max-width:330px){
+	.text-right{
+		margin-left: 20px;
+	}
+	.auth .card{
+		padding: 0px;
+	}
+	.col-6{
+		width: 100%!important;
+		margin-right: 20px;
+	}
+	a{
+		font-size: 12px;
+	}
+	.mb-5{
+		margin-bottom: 1em !important;
+	}
+	.btn{
+		font-size: 13px;
+	}
+	.px-5{
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+}
+@media (max-width:260px){
+	label{
+		font-size: 12px;
+	}
+	p{
+		font-size: 13px;
+	}
+	h3{
+		font-size: 16px;
+	}
+	.auth{
+		padding: 0;
+	}
+	a{
+		font-size: 10px;
+	}
+	.form-control[placeholder="Enter email"],
+	.form-control[placeholder="Enter password"],
+	input[type="email"],
+	input[type="password"]{
+		font-size: 12px;
+	}
+}

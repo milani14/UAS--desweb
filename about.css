@@ -1,0 +1,61 @@
+.auth{
+	padding: 10px;
+}
+.auth .card{
+	box-shadow: -4px 4px 16px 0 #9b7401;
+	margin-bottom: 2.2rem;
+	border-radius: 2px;
+	margin-top: 20px;
+	padding: 10px;
+}
+.auth h3{
+	text-align: center;
+	font-weight: 600;
+	color: #ffc30b;
+}
+.header{
+	background-image: url('bg7.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: auto;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+p{
+    justify-content: center;
+    text-align: justify;
+}
+.btn{
+	width: 20%;
+}
+
+@media(max-width:1000px){
+	img{
+		width: 90%;
+		margin-bottom: 10px;
+		height: auto;
+	}
+	.btn{
+		width: 100px;
+	}
+}
+@media(max-width:330px){
+    p{
+        font-size: 14px;
+    }
+}
+@media(max-width:250px){
+    p{
+        font-size: 12px;
+    }
+    .auth h3{
+        font-size: 18px;
+    }
+}
